@@ -7,17 +7,24 @@ Implemented an ETL pipeline to aggregate user activity logs, transforming relate
 
 Calculated a Utilization Rate (UR) metric per employee and implemented query-ready Views to make data-driven decisions, based on continuous performance monitoring.
 
-## How to create an View?
-### Or, how create dynamical storage for re-updatable UR methric?
-I used Gemini to create 3 fake raw data tables for transformation: 'employees.csv', 'applications.csv', 'raw_activity_logs.csv'
-Then i exported these files into data BigQuery this way: 
-  1.Created dataset 
-  2.Created table selecting created table from upload (thus, from explorer)
-After i created 1 query that used these tables to create View
+## How did i create a dashboard for performance monitoring?
 
-And put Run to generate
+This project demonstrates an end-to-end data pipeline, transforming raw data into actionable business insights.
 
-The generated views has been exported to Google Data studio to shows this Result
+*   **Data Generation:** Generated **mock datasets** (`employees.csv`, `applications.csv`, `raw_activity_logs.csv`) using Gemini to simulate a realistic operational environment.
+*   **ETL Pipeline:** Engineered a organized pipeline by ingesting unprocessed CSV data into **Google BigQuery**.
+*   **Data Transformation:** Developed structured **SQL queries** to process raw data and created **Views** for efficient reporting.
+*   **Visualization:** Connected BigQuery directly to **Looker Studio** to build an interactive dashboard, featuring a **Utilization Rate Histogram (%)** to track and visualize employee performance metrics.
+<img width="1020" height="712" alt="Utilization Rate Hystogram" src="https://github.com/user-attachments/assets/c25b1f03-8e57-4b2b-9350-e72b6ba74e48" />
+
+---
+
+### 🔗 Explore the Project
+You can view the full dashboard and interact with the data here:
+👉 **[View Interactive Dashboard](https://datastudio.google.com/s/u3xevLZtxH0)**
+
+
+
 
 
 
