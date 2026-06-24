@@ -1,17 +1,17 @@
-# Employees-Performance-Analysis
+# Summary
 Transformed raw-data for Performance Analysis, delivering actionable insights into team optimization methrics.
 
-Modeled user activity by generating a test dataset of 10,000 fragmented activity logs to simulate and resolve data integration problems.
+* Modeled user activity by generating a test dataset of 10,000 fragmented activity logs to simulate and resolve data integration problems.
 
-Implemented an ETL pipeline to aggregate user activity logs, transforming related fragments into productivity metrics to identify and reduce ineffective time (such as social media usage)
+* Implemented an ETL pipeline to aggregate user activity logs, transforming related fragments into productivity metrics to identify and reduce ineffective time (such as social media usage)
 
-Calculated a Utilization Rate (UR) metric per employee and implemented query-ready Views to make data-driven decisions, based on continuous performance monitoring.
+* Calculated a Utilization Rate (UR) metric per employee and implemented query-ready Views to make data-driven decisions, based on real-time performance monitoring.
 
-## How did i create a dashboard for performance monitoring?
+## Methodologies and Skills
 
-This project demonstrates an end-to-end data pipeline, transforming raw data into actionable business insights.
+This project demonstrates an cloud data pipeline, transforming raw data into methrics.
 
-*   **Data Generation:** Generated **mock datasets** (`employees.csv`, `applications.csv`, `raw_activity_logs.csv`) using Gemini to simulate a realistic operational environment.
+*   **Data Generation:** Generated **mock datasets** (`employees.csv`, `applications.csv`, `raw_activity_logs.csv`) using **Gemini** to simulate a realistic operational environment.
 *   **ETL Pipeline:** Engineered a organized pipeline by ingesting unprocessed CSV data into **Google BigQuery**.
 *   **Data Transformation:** Developed structured **SQL queries** to process raw data and created **Views** for efficient reporting.
 *   **Visualization:** Connected BigQuery directly to **Looker Studio** to build an interactive dashboard, featuring a **Utilization Rate Histogram (%)** to track and visualize employee performance metrics.
